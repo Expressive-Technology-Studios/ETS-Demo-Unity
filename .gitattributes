@@ -1,2 +1,6 @@
+Assets/Third[[:space:]]Party/Models/Minotaur/Textures/Skin1/tex_Minotaur_skin1_Armor_AlbedoTransparency.tga filter=lfs diff=lfs merge=lfs -text
+Assets/Third[[:space:]]Party/Models/Minotaur/Textures/Skin1/tex_Minotaur_skin1_Armor_MetallicSmoothness.tga filter=lfs diff=lfs merge=lfs -text
+Assets/Third[[:space:]]Party/Mixamo/Characters/Ch50_nonPBR@Idle.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/Third[[:space:]]Party/Mixamo/Characters/Ch50_nonPBR.fbx filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
