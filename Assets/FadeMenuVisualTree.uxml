@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/FadeMenuStyle.uss?fileID=7433441132597879392&amp;guid=c0658d0ad1b78cd47a274598e59b0be1&amp;type=3#FadeMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; top: 50px; left: 50px; min-width: 10%; max-width: 15%; min-height: 30%; max-height: 20%; background-image: none; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgb(140, 39, 35); align-items: center; align-content: auto; justify-content: center; padding-top: 10px; padding-bottom: 10px;">
+        <engine:Label text="Fade Menu&#10;" name="Header" class="header" />
+        <engine:Button text="Fade Out" name="FadeOutButton" class="button" />
+        <engine:Button text="Fade In" name="FadeInButton" class="button" />
+    </engine:VisualElement>
+</engine:UXML>
