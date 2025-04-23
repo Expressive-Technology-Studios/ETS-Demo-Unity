@@ -4,3 +4,4 @@ Assets/Third[[:space:]]Party/Mixamo/Characters/Ch50_nonPBR@Idle.fbx filter=lfs d
 Assets/Third[[:space:]]Party/Mixamo/Characters/Ch50_nonPBR.fbx filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
+Assets/Videos/BarcoHDR.webm filter=lfs diff=lfs merge=lfs -text
