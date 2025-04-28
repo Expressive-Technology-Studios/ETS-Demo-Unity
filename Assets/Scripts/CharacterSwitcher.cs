@@ -3,10 +3,13 @@ using UnityEngine;
 
 public class CharacterSwitcher : MonoBehaviour
 {
-    [SerializeField] ParticleSystem _modelTransition;
-    [SerializeField] GameObject[] _characters;
+    [SerializeField]
+    ParticleSystem _modelTransition;
 
-    void Start()
+    [SerializeField]
+    GameObject[] _characters;
+
+    void OnEnable()
     {
         StartCoroutine(Switch());
     }
@@ -40,5 +43,4 @@ public class CharacterSwitcher : MonoBehaviour
             }
         }
     }
-
 }
