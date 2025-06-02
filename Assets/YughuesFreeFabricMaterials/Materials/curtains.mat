@@ -168,8 +168,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AORemapMax: 1
-    - _AORemapMin: 1
+    - _AORemapMax: 0.69969976
+    - _AORemapMin: 0.045045197
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
