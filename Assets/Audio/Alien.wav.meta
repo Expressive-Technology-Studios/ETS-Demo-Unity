@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7143112fa10ae8c47bbb7387c6edd588
+=======
+guid: aa9a5dcdc46cd0a44808e5d2f22e6349
+>>>>>>> 3d-model-of-theater
 AudioImporter:
   externalObjects: {}
   serializedVersion: 8
