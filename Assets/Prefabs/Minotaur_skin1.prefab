@@ -484,25 +484,36 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 67b48e6bf17cca64a8525dd0ce93af37, type: 2}
+    - target: {fileID: 9500000, guid: 8c9647d877de1014b8eab624170a3d69, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'lowerarm_l'\n\tTransform 'neck_01'\n\tTransform
+        'calf_l'\n\tTransform 'pelvis'\n\tTransform 'spine_01'\n\tTransform 'calf_r'\n\tTransform
+        'lowerarm_r'\n\tTransform 'head'\n\tTransform 'lowerarm_l'\n\tTransform 'neck_01'\n\tand
+        more ...\n\tFrom animation clip 'minataur_attackhigh'\n\tFrom animation clip
+        'minataur_attacklow'\n\tFrom animation clip 'minataur_battleroar'\n\tFrom
+        animation clip 'minataur_crit1'\n\tFrom animation clip 'minataur_crit2'\n\tFrom
+        animation clip 'minataur_crit3'\n\tFrom animation clip 'minataur_deadback'\n\tFrom
+        animation clip 'minataur_deadforward'\n\tFrom animation clip 'minataur_gethitleft'\n\tFrom
+        animation clip 'minataur_gethitmid'\n\tand more ..."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100284, guid: 8c9647d877de1014b8eab624170a3d69,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 100284, guid: 8c9647d877de1014b8eab624170a3d69, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2132348023108906397}
   m_SourcePrefab: {fileID: 100100000, guid: 8c9647d877de1014b8eab624170a3d69, type: 3}
 --- !u!4 &7616944871171530656 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400188, guid: 8c9647d877de1014b8eab624170a3d69,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 400188, guid: 8c9647d877de1014b8eab624170a3d69, type: 3}
   m_PrefabInstance: {fileID: 7616944871171916956}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &7616944871171818272 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100284, guid: 8c9647d877de1014b8eab624170a3d69,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 100284, guid: 8c9647d877de1014b8eab624170a3d69, type: 3}
   m_PrefabInstance: {fileID: 7616944871171916956}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2132348023108906397
@@ -518,7 +529,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _minotaurBlockerAnimator: {fileID: 0}
-  _minotaurHitParticleEffect: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2,
-    type: 3}
+  _minotaurHitParticleEffect: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
   _minotaurHitPosition: {fileID: 7616944871171530656}
   _effectsOn: 0
